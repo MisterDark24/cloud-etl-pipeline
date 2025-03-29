@@ -1,0 +1,34 @@
+# Archivos de log
+logs/
+*.log
+
+# Datos de entrada
+data/
+
+# Archivos temporales de sistema
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Archivos ocultos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de ejecución si usás Kitchen o Pan
+*.kjb.backup
+*.ktr.backup
+
+# Archivos comprimidos
+*.zip
+*.tar.gz
+
+# Archivos generados o cache
+.idea/
+.vscode/
+*.class
+*.jar
+
+# Contraseñas o configuraciones privadas (si los llegás a crear)
+*.env
+*.config

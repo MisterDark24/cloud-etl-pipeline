@@ -558,7 +558,7 @@ sera usada para generar los informes</note>
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>/home/administrador/Documentos/Datos Simulados/categorias.csv</filename>
+    <filename>/home/administrador/Documentos/Proyecto Final/data/categorias.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -675,7 +675,7 @@ sera usada para generar los informes</note>
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>/home/administrador/Documentos/Datos Simulados/ciudades.csv</filename>
+    <filename>/home/administrador/Documentos/Proyecto Final/data/ciudades.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -814,7 +814,7 @@ sera usada para generar los informes</note>
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>/home/administrador/Documentos/Datos Simulados/clientes.csv</filename>
+    <filename>/home/administrador/Documentos/Proyecto Final/data/clientes.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -931,7 +931,7 @@ sera usada para generar los informes</note>
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>/home/administrador/Documentos/Datos Simulados/metodos_pago.csv</filename>
+    <filename>/home/administrador/Documentos/Proyecto Final/data/metodos_pago.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -1048,7 +1048,7 @@ sera usada para generar los informes</note>
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>/home/administrador/Documentos/Datos Simulados/paises.csv</filename>
+    <filename>/home/administrador/Documentos/Proyecto Final/data/paises.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -1165,7 +1165,7 @@ sera usada para generar los informes</note>
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>/home/administrador/Documentos/Datos Simulados/productos.csv</filename>
+    <filename>/home/administrador/Documentos/Proyecto Final/data/productos.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -1304,7 +1304,7 @@ sera usada para generar los informes</note>
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>/home/administrador/Documentos/Datos Simulados/ventas.csv</filename>
+    <filename>/home/administrador/Documentos/Proyecto Final/data/ventas.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
