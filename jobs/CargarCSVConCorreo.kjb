@@ -352,13 +352,13 @@
       <description/>
       <type>MAIL</type>
       <attributes/>
-      <server>mail.digitalplanethn.com</server>
+      <server>smtp.gmail.com</server>
       <port>465</port>
-      <destination>jersoncruz629@gmai.com</destination>
+      <destination>jersoncruz629@gmail.com</destination>
       <destinationCc/>
       <destinationBCc/>
-      <replyto>jerson.cruz@digitalplanethn.com</replyto>
-      <replytoname/>
+      <replyto>cloudetlpipeline@gmail.com</replyto>
+      <replytoname>cloudetlpipeline</replytoname>
       <subject>Carga exitosa de archivos</subject>
       <include_date>N</include_date>
       <contact_person/>
@@ -371,8 +371,8 @@ Pentaho Job finalizado correctamente.</comment>
       <zip_name/>
       <use_auth>Y</use_auth>
       <use_secure_auth>Y</use_secure_auth>
-      <auth_user>jerson.cruz@digitalplanethn.com</auth_user>
-      <auth_password>Encrypted 2be98afc86ae382888b17fd64f491e599</auth_password>
+      <auth_user>cloudetlpipeline@gmail.com</auth_user>
+      <auth_password>Encrypted 2cdefc3af04ce9c9db215be76ce9abdd1</auth_password>
       <only_comment>N</only_comment>
       <use_HTML>N</use_HTML>
       <use_Priority>N</use_Priority>
@@ -397,13 +397,13 @@ Pentaho Job finalizado correctamente.</comment>
       <description/>
       <type>MAIL</type>
       <attributes/>
-      <server>mail.digitalplanethn.com</server>
+      <server>smtp.gmail.com</server>
       <port>465</port>
       <destination>jersoncruz629@gmail.com</destination>
       <destinationCc/>
       <destinationBCc/>
-      <replyto>jerson.cruz@digitalplanethn.com</replyto>
-      <replytoname/>
+      <replyto>cloudetlpipeline@gmail.com</replyto>
+      <replytoname>cloudetlpipeline</replytoname>
       <subject>Error al Cargar archivos CSV</subject>
       <include_date>N</include_date>
       <contact_person/>
@@ -415,8 +415,8 @@ La carga de los archivos a arrojado un error</comment>
       <zip_name/>
       <use_auth>Y</use_auth>
       <use_secure_auth>Y</use_secure_auth>
-      <auth_user>jerson.cruz@digitalplanethn.com</auth_user>
-      <auth_password>Encrypted 2be98afc86ae382888b17fd64f491e599</auth_password>
+      <auth_user>cloudetlpipeline@gmail.com</auth_user>
+      <auth_password>Encrypted 2cdefc3af04ce9c9db215be76ce9abdd1</auth_password>
       <only_comment>N</only_comment>
       <use_HTML>N</use_HTML>
       <use_Priority>N</use_Priority>
@@ -499,13 +499,13 @@ La carga de los archivos a arrojado un error</comment>
       <description/>
       <type>MAIL</type>
       <attributes/>
-      <server>mail.digitalplanethn.com</server>
+      <server>smtp.gmail.com</server>
       <port>465</port>
       <destination>jersoncruz629@gmail.com</destination>
       <destinationCc/>
       <destinationBCc/>
-      <replyto>jerson.cruz@digitalplanethn.com</replyto>
-      <replytoname/>
+      <replyto>cloudetlpipeline@gmail.com</replyto>
+      <replytoname>cloudetlpipeline</replytoname>
       <subject>Error de conexion con el host</subject>
       <include_date>N</include_date>
       <contact_person/>
@@ -518,8 +518,8 @@ No se pudo establecer conexion con el servidor de la base de datos</comment>
       <zip_name/>
       <use_auth>Y</use_auth>
       <use_secure_auth>Y</use_secure_auth>
-      <auth_user>jerson.cruz@digitalplanethn.com</auth_user>
-      <auth_password>Encrypted 2be98afc86ae382888b17fd64f491e599</auth_password>
+      <auth_user>cloudetlpipeline@gmail.com</auth_user>
+      <auth_password>Encrypted 2cdefc3af04ce9c9db215be76ce9abdd1</auth_password>
       <only_comment>N</only_comment>
       <use_HTML>N</use_HTML>
       <use_Priority>N</use_Priority>
