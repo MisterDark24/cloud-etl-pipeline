@@ -27,10 +27,13 @@ cloud-etl-pipeline/
 
 ## ⚙️ Tecnologías utilizadas
 
-- Pentaho Data Integration (Spoon)
-- MySQL (según la base de datos que utilices)
-- Git & GitHub
-- Linux (Ubuntu)
+| Tecnología                           | Uso principal                                                                  |
+|--------------------------------------|--------------------------------------------------------------------------------|
+| **VMware Workstation**               | Virtualización del entorno de desarrollo en una máquina local                  |
+| **Linux (Ubuntu)**                   | Sistema operativo para el desarrollo, pruebas y ejecución del pipeline         |
+| **Pentaho Data Integration (Spoon)** | Orquestación del proceso ETL, validación de datos y envío de notificaciones    |
+| **MySQL**                            | Base de datos relacional para almacenamiento estructurado y análisis posterior |
+| **Git & GitHub**                     | Control de versiones y gestión del repositorio del proyecto                    |
 
 ---
 
