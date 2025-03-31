@@ -11,6 +11,53 @@
   <modified_date>2025/03/28 23:28:26.060</modified_date>
   <parameters>
     </parameters>
+  <connection>
+    <name>MySQL - localhost - sys</name>
+    <server>localhost</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>sys</database>
+    <port>3306</port>
+    <username>admin</username>
+    <password>Encrypted 2be98afc83ad59d9dae1aba7f8fc0fc9b</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>MSSQL_DOUBLE_DECIMAL_SEPARATOR</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>3306</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
+    </attributes>
+  </connection>
   <slaveservers>
     </slaveservers>
   <job-log-table>
@@ -305,7 +352,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>96</xloc>
-      <yloc>256</yloc>
+      <yloc>272</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -315,7 +362,7 @@
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>/home/administrador/Documentos/Proyecto Final/transformations/CSV_DB.ktr</filename>
+      <filename>/home/administrador/Documentos/Proyecto Final/transformations/CSV_To_DB.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -343,8 +390,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>768</xloc>
-      <yloc>256</yloc>
+      <xloc>1376</xloc>
+      <yloc>736</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -372,7 +419,7 @@ Pentaho Job finalizado correctamente.</comment>
       <use_auth>Y</use_auth>
       <use_secure_auth>Y</use_secure_auth>
       <auth_user>cloudetlpipeline@gmail.com</auth_user>
-      <auth_password>Encrypted 2cdefc3af04ce9c9db215be76ce9abdd1</auth_password>
+      <auth_password>Encrypted 2c8f2caa20dd4818aa610b866d082bdd0</auth_password>
       <only_comment>N</only_comment>
       <use_HTML>N</use_HTML>
       <use_Priority>N</use_Priority>
@@ -388,8 +435,8 @@ Pentaho Job finalizado correctamente.</comment>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>768</xloc>
-      <yloc>416</yloc>
+      <xloc>1152</xloc>
+      <yloc>768</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -416,7 +463,7 @@ La carga de los archivos a arrojado un error</comment>
       <use_auth>Y</use_auth>
       <use_secure_auth>Y</use_secure_auth>
       <auth_user>cloudetlpipeline@gmail.com</auth_user>
-      <auth_password>Encrypted 2cdefc3af04ce9c9db215be76ce9abdd1</auth_password>
+      <auth_password>Encrypted 2c8f2caa20dd4818aa610b866d082bdd0</auth_password>
       <only_comment>N</only_comment>
       <use_HTML>N</use_HTML>
       <use_Priority>N</use_Priority>
@@ -432,8 +479,8 @@ La carga de los archivos a arrojado un error</comment>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1088</xloc>
-      <yloc>304</yloc>
+      <xloc>928</xloc>
+      <yloc>656</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -445,8 +492,8 @@ La carga de los archivos a arrojado un error</comment>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1200</xloc>
-      <yloc>272</yloc>
+      <xloc>1152</xloc>
+      <yloc>656</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -463,7 +510,7 @@ La carga de los archivos a arrojado un error</comment>
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>272</xloc>
-      <yloc>256</yloc>
+      <yloc>272</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -478,7 +525,7 @@ La carga de los archivos a arrojado un error</comment>
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>496</xloc>
-      <yloc>256</yloc>
+      <yloc>272</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -490,8 +537,8 @@ La carga de los archivos a arrojado un error</comment>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>368</xloc>
-      <yloc>304</yloc>
+      <xloc>496</xloc>
+      <yloc>400</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -519,7 +566,7 @@ No se pudo establecer conexion con el servidor de la base de datos</comment>
       <use_auth>Y</use_auth>
       <use_secure_auth>Y</use_secure_auth>
       <auth_user>cloudetlpipeline@gmail.com</auth_user>
-      <auth_password>Encrypted 2cdefc3af04ce9c9db215be76ce9abdd1</auth_password>
+      <auth_password>Encrypted 2c8f2caa20dd4818aa610b866d082bdd0</auth_password>
       <only_comment>N</only_comment>
       <use_HTML>N</use_HTML>
       <use_Priority>N</use_Priority>
@@ -535,8 +582,115 @@ No se pudo establecer conexion con el servidor de la base de datos</comment>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>368</xloc>
-      <yloc>384</yloc>
+      <xloc>672</xloc>
+      <yloc>400</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>SQL - Crear DB</name>
+      <description/>
+      <type>SQL</type>
+      <attributes/>
+      <sql/>
+      <useVariableSubstitution>F</useVariableSubstitution>
+      <sqlfromfile>T</sqlfromfile>
+      <sqlfilename>/home/administrador/Documentos/Proyecto Final/sql/DB_SCHEMA.sql</sqlfilename>
+      <sendOneStatement>F</sendOneStatement>
+      <connection>MySQL - localhost - sys</connection>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1040</xloc>
+      <yloc>272</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Abort job - DB</name>
+      <description/>
+      <type>ABORT</type>
+      <attributes/>
+      <message/>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1040</xloc>
+      <yloc>400</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Error Mail - DB</name>
+      <description/>
+      <type>MAIL</type>
+      <attributes/>
+      <server>smtp.gmail.com</server>
+      <port>465</port>
+      <destination>jersoncruz629@gmail.com</destination>
+      <destinationCc/>
+      <destinationBCc/>
+      <replyto>cloudetlpipeline@gmail.com</replyto>
+      <replytoname>cloudetlpipeline</replytoname>
+      <subject>Error al crear la base de datos</subject>
+      <include_date>N</include_date>
+      <contact_person/>
+      <contact_phone/>
+      <comment>¡Hola!  
+La carga de los archivos a arrojado un error
+No se pudo crear la base de datos</comment>
+      <include_files>N</include_files>
+      <zip_files>N</zip_files>
+      <zip_name/>
+      <use_auth>Y</use_auth>
+      <use_secure_auth>Y</use_secure_auth>
+      <auth_user>cloudetlpipeline@gmail.com</auth_user>
+      <auth_password>Encrypted 2c8f2caa20dd4818aa610b866d082bdd0</auth_password>
+      <only_comment>N</only_comment>
+      <use_HTML>N</use_HTML>
+      <use_Priority>N</use_Priority>
+      <encoding>UTF-8</encoding>
+      <priority>normal</priority>
+      <importance>normal</importance>
+      <sensitivity>normal</sensitivity>
+      <secureconnectiontype>SSL</secureconnectiontype>
+      <replyToAddresses/>
+      <filetypes>      </filetypes>
+      <embeddedimages>
+      </embeddedimages>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>912</xloc>
+      <yloc>400</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Check DB connections</name>
+      <description/>
+      <type>CHECK_DB_CONNECTIONS</type>
+      <attributes/>
+      <connections>
+        <connection>
+          <name>MySQL - localhost - sys</name>
+          <waitfor>0</waitfor>
+          <waittime>millisecond</waittime>
+        </connection>
+      </connections>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>736</xloc>
+      <yloc>272</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Success</name>
+      <description/>
+      <type>SUCCESS</type>
+      <attributes/>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1376</xloc>
+      <yloc>272</yloc>
       <attributes_kjc/>
     </entry>
   </entries>
@@ -544,15 +698,6 @@ No se pudo establecer conexion con el servidor de la base de datos</comment>
     <hop>
       <from>Transformation - CSV To DB</from>
       <to>Abort job</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Transformation - CSV To DB</from>
-      <to>Error Mail</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -587,7 +732,88 @@ No se pudo establecer conexion con el servidor de la base de datos</comment>
       <unconditional>N</unconditional>
     </hop>
     <hop>
+      <from>SQL - Crear DB</from>
+      <to>Abort job - DB</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Ping a host</from>
+      <to>Abort job - Conexion</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
       <from>Telnet a host</from>
+      <to>Abort job - Conexion</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Abort job - Conexion</from>
+      <to>Error Mail - Conexion</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Abort job - DB</from>
+      <to>Error Mail - DB</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Telnet a host</from>
+      <to>Check DB connections</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Check DB connections</from>
+      <to>Abort job - Conexion</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Check DB connections</from>
+      <to>SQL - Crear DB</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>SQL - Crear DB</from>
+      <to>Success</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Success</from>
       <to>Transformation - CSV To DB</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
@@ -596,39 +822,12 @@ No se pudo establecer conexion con el servidor de la base de datos</comment>
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Ping a host</from>
-      <to>Abort job - Conexion</to>
+      <from>Abort job</from>
+      <to>Error Mail</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Telnet a host</from>
-      <to>Abort job - Conexion</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Telnet a host</from>
-      <to>Error Mail - Conexion</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Ping a host</from>
-      <to>Error Mail - Conexion</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>N</evaluation>
+      <evaluation>Y</evaluation>
       <unconditional>N</unconditional>
     </hop>
   </hops>
@@ -698,10 +897,10 @@ Comprobamos la disponibilidad del puerto</note>
       <drawshadow>Y</drawshadow>
     </notepad>
     <notepad>
-      <note>Conecto, entonces insertamos los datos</note>
-      <xloc>672</xloc>
-      <yloc>208</yloc>
-      <width>227</width>
+      <note>Si todo esta bien vamos a insertar los datos</note>
+      <xloc>1280</xloc>
+      <yloc>224</yloc>
+      <width>244</width>
       <heigth>26</heigth>
       <fontname>Ubuntu Sans</fontname>
       <fontsize>9</fontsize>
@@ -721,8 +920,8 @@ Comprobamos la disponibilidad del puerto</note>
     <notepad>
       <note>Si hubo error
 Enviar correo de error y abortar todo</note>
-      <xloc>1024</xloc>
-      <yloc>208</yloc>
+      <xloc>1056</xloc>
+      <yloc>592</yloc>
       <width>215</width>
       <heigth>42</heigth>
       <fontname>Ubuntu Sans</fontname>
@@ -743,8 +942,8 @@ Enviar correo de error y abortar todo</note>
     <notepad>
       <note>Si no hubo error
 Enviar Correo de exito</note>
-      <xloc>720</xloc>
-      <yloc>480</yloc>
+      <xloc>1104</xloc>
+      <yloc>832</yloc>
       <width>133</width>
       <heigth>42</heigth>
       <fontname>Ubuntu Sans</fontname>
@@ -764,14 +963,15 @@ Enviar Correo de exito</note>
     </notepad>
     <notepad>
       <note>Este Trabajo se encarga de orquestar la estructura
-Desde comprobar conexiones
-Llamar las transformaciones
-Enviar correos
-Manejos de errores</note>
+- Desde comprobar conexiones
+- Crear DB y Tablas si no existen
+- Llamar las transformaciones
+- Enviar correos
+- Manejos de errores</note>
       <xloc>468</xloc>
       <yloc>55</yloc>
       <width>342</width>
-      <heigth>100</heigth>
+      <heigth>118</heigth>
       <fontname>Ubuntu Sans</fontname>
       <fontsize>11</fontsize>
       <fontbold>N</fontbold>
@@ -791,10 +991,55 @@ Manejos de errores</note>
       <note>En Caso de no poder establecer conexion
 Abortamos todo
 Notificamos por correo</note>
-      <xloc>256</xloc>
-      <yloc>448</yloc>
+      <xloc>464</xloc>
+      <yloc>464</yloc>
       <width>236</width>
       <heigth>58</heigth>
+      <fontname>Ubuntu Sans</fontname>
+      <fontsize>9</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>Si conecta entonces corremos script
+Para crear schema de la DB, por si no existe la db
+o no existe alguna tabla nueva</note>
+      <xloc>960</xloc>
+      <yloc>192</yloc>
+      <width>276</width>
+      <heigth>58</heigth>
+      <fontname>Ubuntu Sans</fontname>
+      <fontsize>9</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>Comprobamos conexion con DB sys
+Para verificar si conecta con el host de mysql</note>
+      <xloc>656</xloc>
+      <yloc>192</yloc>
+      <width>254</width>
+      <heigth>42</heigth>
       <fontname>Ubuntu Sans</fontname>
       <fontsize>9</fontsize>
       <fontbold>N</fontbold>
